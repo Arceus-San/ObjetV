@@ -25,7 +25,7 @@ public class TextualMenu {
     }
 
     private void initCollection() {
-        catalog = new CatalogImpl();
+        catalog = new CatalogImpl("ikea");
     }
 
     protected void handleUserInstructions() throws IOException {
